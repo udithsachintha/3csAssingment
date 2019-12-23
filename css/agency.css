@@ -93,13 +93,13 @@ img::-moz-selection {
 }
 
 .btn-primary {
-  background-color: #008080;
-  border-color: #008080;
+  background-color: #ec1d4d;
+  border-color: #ec1d4d;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #008080 !important;
-  border-color: #008080 !important;
+  background-color: #b33e7a !important;
+  border-color: #b33e7a !important;
   color: white;
 }
 
@@ -596,10 +596,10 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#contact {
-  background-color: #212529;
+  /* background-color: #212529;
   background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
 }
 
 section#contact .section-heading {
