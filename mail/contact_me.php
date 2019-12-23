@@ -23,5 +23,5 @@ $headers = "From: noreply@yourdomain.com\n"; // This is the email address the ge
 $headers .= "Reply-To: $email_address";   
 mail($to,$email_subject,$email_body,$headers);
 header("Location: index.html");
-return true;         
+         
 ?>
