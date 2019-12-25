@@ -7,9 +7,16 @@
   <script src="../js/thankyou.js"></script>
 
 <script>
- window.onload = 
- 
- swal("Congrats!", ", Your Enquiry Submitted", "success");
+ window.onload = swal("Congrats!", ", Your Enquiry Submitted", "success")
+ .then(
+      function (isConfirm) {
+        if (isConfirm) {
+          console.log(window.location = 'https://newurl.com');
+        }
+      },
+   
+    ); 
+ ;
   
  
  
