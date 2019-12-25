@@ -445,13 +445,15 @@ var handleConfirm = function handleConfirm(modal, params) {
   params.doneFunction(callbackValue);
 
   if (params.closeOnConfirm) {
-    sweetAlert.close();
     window.location.href = "http://www.google.com/";
+
+    sweetAlert.close();
   }
   // Disable cancel and confirm button if the parameter is true
   if (params.showLoaderOnConfirm) {
-    sweetAlert.disableButtons();
     window.location.href = "http://www.google.com/";
+
+    sweetAlert.disableButtons();
 
   }
 };
