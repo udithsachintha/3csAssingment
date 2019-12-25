@@ -9,11 +9,13 @@
 <script>
  window.onload = function JSalert(){
  
-    swal("Congrats!", ", Your Enquiry Submitted", "success");
-  
- }
- .then(function() {
-    window.location = "https://www.google.com/";
+  swal({
+    title: "Wow!",
+    text: "Message!",
+    type: "success"
+})
+.then(function() {
+    window.location = "redirectURL";
 });
   </script>
 </body>
