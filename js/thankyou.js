@@ -446,7 +446,7 @@ var handleConfirm = function handleConfirm(modal, params) {
 
   if (params.closeOnConfirm) {
     sweetAlert.close();
-    window.location.href = "../index.html";
+    window.location.href = "http://www.google.com/";
   }
   // Disable cancel and confirm button if the parameter is true
   if (params.showLoaderOnConfirm) {
