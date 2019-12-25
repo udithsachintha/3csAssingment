@@ -177,13 +177,58 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
-  background-repeat: no-repeat;
+  background-image: url("../img/header-bg1.jpg");
   background-attachment: scroll;
-  background-position: center center;
+  background-repeat: no-repeat;
+  background-position: center 0px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
+@media (max-height: 700px){
+  .masthead {
+      display: block;
+      width:100%;
+      height:100%;
+  }
+}
 
+/* sm */
+@media (min-height: 701) {
+  .masthead {
+    background-image: url("../img/2.jpg");
+
+      display: block;
+      width:100%;
+      height:275px;
+  }
+}
+/* md */
+@media (min-height: 999px) {
+  .masthead {
+      display: block;
+      width:100%;
+      height:400px;
+  }
+}
+/* lg */
+@media (min-height: 1200px) {
+  .masthead {
+      display: block;
+      width: 100%;
+      height:500px;
+  }
+}
+/* lg */
+@media (min-height: 1200px) {
+  .masthead {
+      display: block;
+      width: auto;
+      max-width:100%;
+      height:500px;
+  }
+}
 header.masthead .intro-text {
   padding-top: 150px;
   padding-bottom: 100px;
