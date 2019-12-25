@@ -1,4 +1,4 @@
 [[redirects]]
-from = "https://wonderful-shaw-ef5c5f.netlify.com/_error"
-to = "/404.html"
-status = 404
+  from = "/*"
+  to = "/error"
+  status = 404
