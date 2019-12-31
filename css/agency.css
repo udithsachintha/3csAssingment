@@ -61,8 +61,13 @@ h6 {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 61px 0;
   }
+}
+@media( max-width:600px){
+  .cus-add{
+padding-top: 20px ;
+padding-bottom: 20px;  }
 }
 
 ::-moz-selection {
@@ -747,4 +752,10 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #008080;
+}
+@media only screen and (max-width: 600px) {
+  .carousel {
+    /* position: inherit; */
+    margin-top: 86px;
+}
 }
